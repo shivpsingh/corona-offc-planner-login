@@ -102,16 +102,19 @@ html {
 
 .verticalLine {
     border-right: 1px solid black;
-    padding-left: 11%;
+    padding-left: 5%;
     height: 100%;
     text-align: center;
 }
 
 .headerText {
-    color: #555;
+    color: #000000;
     text-align: left;
     font-size: 25px;
-    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+    line-height: 36px;
+    font-weight: 400;
 }
 
 .headerTextContainer {
@@ -127,7 +130,13 @@ html {
 }
 
 .headerTextContainer h1 {
-    color: green;
+    color: #3c8c27;
+    font-weight: 400;
+}
+
+.ReservedText {
+    color: #1c446f;
+    font-weight: 700;
 }
 
 
