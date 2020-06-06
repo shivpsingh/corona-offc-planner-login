@@ -104,7 +104,7 @@ html {
     border-right: 1px solid black;
     padding-left: 5%;
     height: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 .headerText {
@@ -123,6 +123,9 @@ html {
 
 .headerImage {
     color: transparent;
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
 }
 
 .headerRowContainer {
@@ -136,7 +139,7 @@ html {
 
 .ReservedText {
     color: #1c446f;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
@@ -164,6 +167,7 @@ html {
         border-right: 0px solid black;
         padding-left: 11%;
         height: 100%;
+        text-align: center;
     }
     .headerText {
         color: #555;
@@ -185,6 +189,7 @@ html {
         border-right: 0px solid black;
         padding-left: 11%;
         height: 100%;
+        text-align: center;
     }
     .headerText {
         color: #555;
@@ -206,6 +211,7 @@ html {
         border-right: 0px solid black;
         padding-left: 11%;
         height: 100%;
+        text-align: center;
     }
     .headerText {
         color: #555;
@@ -227,6 +233,7 @@ html {
         border-right: 0px solid black;
         padding-left: 11%;
         height: 100%;
+        text-align: center;
     }
     .headerText {
         color: #555;
@@ -243,4 +250,21 @@ html {
 
 /* For Extra Small devices */
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .verticalLine {
+        border-right: 0px solid black;
+        padding-left: 11%;
+        height: 100%;
+        text-align: center;
+    }
+    .headerText {
+        color: #555;
+        text-align: justify;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .headerTextContainer {
+        padding: auto;
+        margin-top: 20%;
+    }
+}
